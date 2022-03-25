@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Nanum Myeongjo';
+    src: url(Nanum_Myeongjo/NanumMyeongjo-Regular.ttf) format('truetype');
+}
+
+body {
+    font-family: 'Nanum Myeongjo', serif;
+    /*background-color: #03fc6f;*/
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+}

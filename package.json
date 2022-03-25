@@ -1,0 +1,63 @@
+{
+<<<<<<< HEAD
+	"name": "pvpGame",
+	"version": "1.1.6",
+	"description": "PVP Game - CablePost",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron .",
+		"buildLinux": "electron-builder --linux",
+		"buildWin": "electron-builder --win"
+	},
+	"keywords": [
+		"PVP",
+		"Game",
+		"CablePost"
+	],
+	"author": "BillBodkin <billyg270@gmail.com>",
+	"license": "CC0-1.0",
+	"devDependencies": {
+		"electron": "^10.1.0",
+		"electron-packager": "^15.1.0",
+		"electron-builder": "^22.8.0",
+		"electron-forge-maker-appimage": "^22.8.1"
+	},
+	"dependencies": {
+		"electron-dl": "^3.0.2",
+		"rimraf": "^3.0.2",
+		"unzipper": "^0.10.11"
+	},
+	"build": {
+		"appId": "uk.co.cablepost.pvpgame",
+		"linux": {
+			"target": [
+				"deb",
+				"snap",
+				"rpm"
+			],
+			"category": "Game"
+		}
+	}
+=======
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^17.2.0"
+  }
+>>>>>>> 6d16319cd311c9f33db8f4d5d0fd79eb99973598
+}
