@@ -16,13 +16,13 @@
 	"author": "BillBodkin <billyg270@gmail.com>",
 	"license": "CC0-1.0",
 	"devDependencies": {
-		"electron": "^10.1.0",
-		"electron-packager": "^15.1.0",
-		"electron-builder": "^22.8.0",
-		"electron-forge-maker-appimage": "^22.8.1"
+		"electron": "^15.1.0",
+		"electron-builder": "^22.14.13",
+		"electron-forge-maker-appimage": "^22.14.13",
+		"electron-packager": "^15.4.0"
 	},
 	"dependencies": {
-		"electron-dl": "^3.0.2",
+		"electron-dl": "^3.3.0",
 		"rimraf": "^3.0.2",
 		"unzipper": "^0.10.11"
 	},
