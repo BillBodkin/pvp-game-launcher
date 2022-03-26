@@ -90,7 +90,9 @@ function DownloadGame(callback = function(){ console.log("Download complete"); }
     console.log("Downloading game...");
     fs.writeFileSync(app.getPath('userData') + "/gameVersion.txt", "downloading");
     //rimraf.sync(app.getPath('userData') + "/gameFiles/");
-    fs.rmdirSync(app.getPath('userData') + "/gameFiles/", { recursive: true });
+    if(fs.existsSync(app.getPath('userData') + "/gameFiles/")){
+        fs.rmdirSync(app.getPath('userData') + "/gameFiles/", { recursive: true });
+    }
     fs.mkdir(app.getPath('userData') + "/gameFiles/", 0777, function(){
         //const file = fs.createWriteStream(app.getPath('userData') + "/gameFiles/game.zip");
         https.get("https://cablepost.co.uk/PVPGame/" + latestVersion + "/PVP_Game_" + gameType + "_Player_" + latestVersion + ".zip", function(response){

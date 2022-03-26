@@ -1,6 +1,6 @@
 {
 	"name": "pvpGame",
-	"version": "1.1.6",
+	"version": "1.1.7",
 	"description": "PVP Game - CablePost",
 	"main": "main.js",
 	"scripts": {
